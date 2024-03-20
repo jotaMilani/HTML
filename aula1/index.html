@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Clona Cartão🦖</title>
+    <style>
+      body {
+        background: #000000;
+        color: azure;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Привет, мир!</h1>
+  </body>
+  <script>
+    console.log("Olá Mundo!");
+  </script>
+</html>
+
+<body>
+    <h1>Aula-01 - HTML | CSS | JS </h1>
+
+    <h2>Alerta de mensagem!</h2>
+<p style="text-align: center">
+<button onclick="alerta()"
+style="">🚨Alerta!🚨</button>
+</p>
+    <script>
+        function alerta() {
+            var nome = prompt("Olá, informe seu nome:")
+            alert(`Olá ${nome}!`)
+        }
+    </script>
+
+
+
+
+
+<h2>Altere a cor do fundo do site clicando em uma das cores abaixo:</h2>
+
+<p style="text-align: center">
+    <button onclick="Vermelho()"
+    style="">vermelho</button>
+    </p>
+        <script>
+            function Vermelho() {
+                document.getElementsByTagName("body")[0].style.background = "#f00"
+            }
+        </script>
+<p style="text-align: center">
+    <button onclick="Azul()"
+    style="">azul</button>
+    </p>
+        <script>
+            function Azul() {
+                document.getElementsByTagName("body")[0].style.background = "#00f"
+            }
+        </script>
+<p style="text-align: center">
+    <button onclick="Verde()"
+    style="">verde</button>
+    </p>
+        <script>
+            function Verde() {
+                document.getElementsByTagName("body")[0].style.background = "#0f0"
+            }
+        </script>
+
+</body>
+
