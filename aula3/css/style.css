@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --bug-url: url(../img/dark2.png)
+}
+
+body{
+    background: var(--bug-url) no-repeat top center / cover;
+    height: 100vh;
+}
